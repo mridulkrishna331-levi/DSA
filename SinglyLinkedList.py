@@ -9,4 +9,4 @@
 # 2.isme hota h next wali memory ka address
 
 # Pointer = it is a variable which points to a position / an address
-# jaise blaock ke ander do partition h toh hum likhenge ki jaise plhe wale box ko humne Head bol diya jo ki define kar rha h ki humne plhe wale dubbe ki location ki toh hum likhenege ki Head.info  ya fir Head.next
+# jaise blaock ke ander do partition h toh hum likhenge ki jaise plhe wale box ko humne Head bol diya jo ki define kar rha h ki humne plhe wale dubbe ki location ki toh hum likhenege ki Head.info  ya fir Head.next .
