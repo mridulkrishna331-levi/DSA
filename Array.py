@@ -134,7 +134,7 @@ from numpy import *
 # isme bus ek extra square bracket lagayenge or jtne bhi element dakne daa sakte h or seedha print kara denge
 # one = array([1, 2, 3, 4, 5])
 # print(one)
-
+# something has to be change
 # Two dimensional array
 # isko bananae ke liye hum sabse plhe squar bracket ko lagayenhge
 # or two dimensional array ka matlab hota h ki collection of one dimensional array
