@@ -14,7 +14,7 @@
 
 # SINGLYLINKEDLIST CODE
 
-
+# in sabka coed jo h vo bahut bda h par dhere dhere samajh me aa rha h toh koi dikkat wali baat nhi h 
 # INSERTION AT THE END
 # class Node:
 #     def __init__(self, info, next=None):
