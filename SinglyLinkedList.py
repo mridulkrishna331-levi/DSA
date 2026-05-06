@@ -14,7 +14,7 @@
 
 # SINGLYLINKEDLIST CODE
 
-# in sabka coed jo h vo bahut bda h par dhere dhere samajh me aa rha h toh koi dikkat wali baat nhi h 
+# in sabka coed jo h vo bahut bda h par dhere dhere samajh me aa rha h toh koi dikkat wali baat nhi h
 # INSERTION AT THE END
 # class Node:
 #     def __init__(self, info, next=None):
@@ -53,6 +53,103 @@
 
 # INSERTION AT THE BEGINNING
 
+# class Node:
+#     def __init__(self, info, next=None):
+#         self.data = info
+#         self.next = next
+
+
+# class SinglyLinkedList:
+#     def __init__(self, head=None):
+#         self.head = head
+
+#     def InsertAtEnd(self, value):
+#         temp = Node(value)
+#         if (self.head != None):
+#             t1 = self.head
+#             while (t1.next != None):
+#                 t1 = t1.next
+#             t1.next = temp
+#         else:
+#             self.head = temp
+
+#     def InsertAtBeg(self, value):
+#         temp = Node(value)
+#         temp.next = self.head
+#         self.head = temp
+#         self.head = temp
+
+#     def printLL(self):
+#         t1 = self.head
+#         while (t1.next != None):
+#             print(t1.data)
+#             t1 = t1.next
+#         print(t1.data)
+
+
+# obj = SinglyLinkedList()
+# obj.InsertAtEnd(10)
+# obj.InsertAtEnd(20)
+# obj.InsertAtEnd(30)
+# obj.InsertAtBeg(5)
+# obj.printLL()
+
+
+# INSERTION IN THE MIDDLE AND TO SERCH AN ELEMENT
+
+# class Node:
+#     def __init__(self, info, next=None):
+#         self.data = info
+#         self.next = next
+
+
+# class SinglyLinkedList:
+#     def __init__(self, head=None):
+#         self.head = head
+
+#     def InsertAtEnd(self, value):
+#         temp = Node(value)
+#         if (self.head != None):
+#             t1 = self.head
+#             while (t1.next != None):
+#                 t1 = t1.next
+#             t1.next = temp
+#         else:
+#             self.head = temp
+
+#     def InsertAtBeg(self, value):
+#         temp = Node(value)
+#         temp.next = self.head
+#         self.head = temp
+
+#     def InsertInMid(self, value, x):
+#         temp = Node(value)
+#         t1 = self.head
+
+#         while (t1 != None):
+#             if (t1.data == x):
+#                 temp.next = t1.next
+#                 t1.next = temp
+#             t1 = t1.next
+
+#     def printLL(self):
+#         t1 = self.head
+#         while (t1.next != None):
+#             print(t1.data)
+#             t1 = t1.next
+#         print(t1.data)
+
+
+# obj = SinglyLinkedList()
+# obj.InsertAtEnd(10)
+# obj.InsertAtEnd(20)
+# obj.InsertAtEnd(30)
+# obj.InsertAtBeg(5)
+# obj.InsertInMid(40,20)
+# obj.printLL()
+
+
+# DELETE AN ELEMENT FROM THE LINKED LIST
 class Node:
     def __init__(self, info, next=None):
         self.data = info
@@ -77,7 +174,31 @@ class SinglyLinkedList:
         temp = Node(value)
         temp.next = self.head
         self.head = temp
-        self.head = temp
+
+    def InsertInMid(self, value, x):
+        temp = Node(value)
+        t1 = self.head
+
+        while (t1 != None):
+            if (t1.data == x):
+                temp.next = t1.next
+                t1.next = temp
+            t1 = t1.next
+
+    def DeleteLL(self, value):
+        t1 = self.head
+        prev = t1
+        if (t1.data == value):
+            self.head = t1.next
+        while (t1.next != None):
+            if (t1.data == value):
+                prev.next = t1.next
+                break
+            else:
+                prev = t1
+                t1 = t1.next
+        if (t1.data == value):
+            prev.next = None 
 
     def printLL(self):
         t1 = self.head
@@ -92,7 +213,6 @@ obj.InsertAtEnd(10)
 obj.InsertAtEnd(20)
 obj.InsertAtEnd(30)
 obj.InsertAtBeg(5)
+obj.InsertInMid(40, 20)
+obj.DeleteLL(30)
 obj.printLL()
-
-
-# INSERTION IN THE MIDDLE AND TO SERCH AN ELEMENT 
