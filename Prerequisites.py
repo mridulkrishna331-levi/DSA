@@ -4,3 +4,6 @@ tuesday = 34
 avg = (monday+tuesday)/2
 print(avg)
 name12_ = "Mridul"
+
+first_name = input()
+print(first_name)
