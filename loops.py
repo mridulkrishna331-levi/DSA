@@ -9,8 +9,9 @@ for o in range(1, 9):
 # yha par jo range h vo 1 se tart hogi and 6 tak chalegi means 5 tak number print honge
 
 for j in range(1, 9, 2):
-    print(j)    
+    print(j)
 # yha jaise chalga vse hi chalega par 2 step ki deri se means 2 ke gap se chalega
 
 for k in range(10, 0, -1):
     print(k)
+# yha jaise ki loop reverse chalega then 10 se chalke 0 par chalega andd -1 measn 1-1 step kam hota jayega
