@@ -69,3 +69,9 @@ def greet(name):
 
 
 greet("manu")
+# jo pass kiya h vo argument h or jo function m dala h vo h parameter
+
+
+# RETURN statement use hoti h jab hume value wapas chahie hoti h
+def add(a, b):
+    return a+b
