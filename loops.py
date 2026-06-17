@@ -27,9 +27,16 @@
 
 
 # baki BREAK use hota h loop ko turat break karne k liye
-for i in range(10):
-    # print(i) condition bahar hi likhni hoti h ander nhi loop ke
+# for i in range(10):
+#     # print(i) condition bahar hi likhni hoti h ander nhi loop ke
 
-    if i == 7:
-        break
+#     if i == 7:
+#         break
+#     print(i)
+
+# baki aise hi CONTINUE use hota h jo ki iteration ko skip kar deta h
+for i in range(6):
+    if i == 4:
+        continue
+
     print(i)
