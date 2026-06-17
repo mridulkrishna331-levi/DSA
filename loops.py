@@ -64,14 +64,25 @@
 # greet()
 
 # with parameter
-def greet(name):
-    print("Hello", name)
+# def greet(name):
+#     print("Hello", name)
 
 
-greet("manu")
+# greet("manu")
 # jo pass kiya h vo argument h or jo function m dala h vo h parameter
 
 
 # RETURN statement use hoti h jab hume value wapas chahie hoti h
 def add(a, b):
     return a+b
+
+
+# list is mutable
+fruits = ["apple", "mango", "banana"]
+fruits.insert(1, "kela")
+fruits.remove("kela")
+# pop is used to delete an elemment on the basis of the indexing
+fruits.pop(2)
+# similarly sort is used for ascending order and unsort is foor the descending order
+print(fruits[0,2])
+print(fruits)
