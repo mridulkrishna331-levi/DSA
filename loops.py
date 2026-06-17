@@ -50,6 +50,22 @@
 #     print("*" * i)
 
 # FUNCTION
-def greet():
-   print("Namaste")
-greet()
+# def greet():
+#    print("Namaste")
+# greet()
+
+# function m kuch PARAMETERS hote h jo ki aage help karte h
+
+# without parameter
+# def greet():
+#     print("Hello Mridul")
+
+
+# greet()
+
+# with parameter
+def greet(name):
+    print("Hello", name)
+
+
+greet("manu")
