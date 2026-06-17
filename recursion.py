@@ -27,3 +27,17 @@ def factorial(n):
 
 
 print(factorial(7))
+
+
+# recursive stack
+def fun(n):
+    if n == 0:
+        return
+    fun(n-1)
+    print(n, end=" ")
+
+
+print(fun(3))
+
+
+# RECURSIVE TREE [LEETCODE =(509)]
