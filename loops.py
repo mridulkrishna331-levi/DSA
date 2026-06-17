@@ -35,8 +35,21 @@
 #     print(i)
 
 # baki aise hi CONTINUE use hota h jo ki iteration ko skip kar deta h
-for i in range(6):
-    if i == 4:
-        continue
+# for i in range(6):
+#     if i == 4:
+#         continue
 
-    print(i)
+#     print(i)
+
+# NESTED LOOP
+# pattern printing
+# for i in range (5):
+#     print("*"*5)
+
+# for i in range(1,5):
+#     print("*" * i)
+
+# FUNCTION
+def greet():
+   print("Namaste")
+greet()
