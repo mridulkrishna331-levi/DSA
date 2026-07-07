@@ -8,7 +8,6 @@
 # first_name = input()
 # print(first_name)
 
-
 # age = int(input())
 # if (age >= 18):
 #     print("eligible")
